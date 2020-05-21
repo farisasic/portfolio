@@ -3,6 +3,8 @@ header{
     font-family: $headingFont;
     font-weight: 400;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -15,3 +17,21 @@ header{
     text-decoration: none;
     color: white;
 }
+
+.home-navbar {
+    text-transform: uppercase;
+    padding: 10px;
+    align-items: center;
+    display: block;
+    a {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.2em;  
+        padding-top: 5px;
+    }
+}
+
+    
+    
+        
+    
