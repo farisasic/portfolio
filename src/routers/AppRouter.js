@@ -21,7 +21,6 @@ const AppRouter = () => (
       <Header />
         <Switch>
           <Route path="/" exact><Home /></Route>
-
           <Route><PageNotFound /></Route>
         </Switch>
       <Footer />

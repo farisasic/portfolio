@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import HomeNav from './HomeNav';
+
 
 const Home = (props) => {
 
