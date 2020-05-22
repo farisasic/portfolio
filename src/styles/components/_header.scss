@@ -22,13 +22,13 @@ header{
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    
+    margin-bottom: 5px;
     justify-content: space-between;
     text-decoration: none;
     
     a {
         display: flex;
-        justify-content: space-evenly;
+        
         font-size: 1.2em;  
         padding-top: 5px;
         text-decoration: none;
@@ -38,9 +38,9 @@ header{
 
 .navbar-nav {
     list-style: none;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    padding-left: 0;
+    padding-left: 10px;
     margin-bottom: 0; 
 }
 
@@ -80,8 +80,9 @@ ul {
     margin-top: 0;
 }
 
-.button {
-    background-image: '/src/images/hamburger.png';
+h1 {
+    margin: 0;
+    font-size: 1.8em;
 }
     
     

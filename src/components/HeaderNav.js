@@ -28,15 +28,15 @@ const HeaderNav = (props) => {
                 <Nav navbar>
                    
                         <NavItem>    
-                            <NavLink to="/" exact>Home</NavLink>
+                            <NavLink onClick={toggleNavbar} to="/" exact>Home</NavLink>
                         </NavItem>
 
                         <NavItem>              
-                            <NavLink to="/projects">Projects</NavLink>
+                            <NavLink onClick={toggleNavbar} to="/projects">Projects</NavLink>
                         </NavItem>
 
                         <NavItem>               
-                            <NavLink to="/about">About</NavLink>
+                            <NavLink onClick={toggleNavbar} to="/about">About</NavLink>
                         </NavItem>
                           
                 </Nav>
