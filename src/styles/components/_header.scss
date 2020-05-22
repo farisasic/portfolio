@@ -1,36 +1,88 @@
 header{
-    background-color: $darkGray;
+    background-color: #fcfcfc;
     font-family: $headingFont;
     font-weight: 400;
     margin: 0;
-    display: flex;
-    justify-content: space-between;
 }
 
 .logo {
-    padding: 20px;
-    max-width: 1000px;
-    text-transform: uppercase;
+    padding: 10px;
 }
 
 .logo-link {
     text-decoration: none;
-    color: white;
+    color: $black;
+    margin-right: auto !important;
 }
 
-.home-navbar {
+.navbar {
     text-transform: uppercase;
     padding: 10px;
     align-items: center;
-    display: block;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    text-decoration: none;
+    
     a {
         display: flex;
         justify-content: space-evenly;
         font-size: 1.2em;  
         padding-top: 5px;
+        text-decoration: none;
+       
+    } 
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0; 
+}
+
+.collapse:not(.show) {
+    display: none;
+    text-decoration: none;
+    
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    
+    //flex-direction: column;
+    //padding: 0.5rem 1rem;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+    
+    
+    a {
+        color: $darkGray;
     }
 }
 
+.collapsing {
+    overflow: hidden;
+    height: 0;
+    -webkit-transition: height 0.3s ease-out;
+    -moz-transition: height 0.3s ease-out;
+    transition: height 0.3s ease-out;
+
+}
+
+ul {
+    margin-top: 0;
+}
+
+.button {
+    background-image: '/src/images/hamburger.png';
+}
     
     
         

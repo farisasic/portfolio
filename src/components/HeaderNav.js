@@ -1,18 +1,47 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+  } from 'reactstrap';
 
+ 
 
-const HeaderNav = () => {
+const HeaderNav = (props) => {
 
+    const [collapsed, setCollapsed] = useState(true);
 
+  const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
         
-        <nav className="home-navbar">          
-            <NavLink to="/" exact>Home</NavLink>               
-            <NavLink to="/projects">Projects</NavLink>               
-            <NavLink to="/about">About</NavLink>     
-        </nav>
+        <Navbar>
+            <div className="logo">
+                    <NavbarBrand href="/" className="logo-link"><h1>Farkoweb</h1></NavbarBrand>
+                </div>
+            <NavbarToggler onClick={toggleNavbar} className="navigation" />
+            <Collapse isOpen={!collapsed} navbar>
+                <Nav navbar>
+                   
+                        <NavItem>    
+                            <NavLink to="/" exact>Home</NavLink>
+                        </NavItem>
+
+                        <NavItem>              
+                            <NavLink to="/projects">Projects</NavLink>
+                        </NavItem>
+
+                        <NavItem>               
+                            <NavLink to="/about">About</NavLink>
+                        </NavItem>
+                          
+                </Nav>
+            </Collapse>
+        </Navbar>
         
         )
     };
