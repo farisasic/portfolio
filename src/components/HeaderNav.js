@@ -23,7 +23,9 @@ const HeaderNav = (props) => {
             <div className="logo">
                     <NavbarBrand href="/" className="logo-link"><h1>Farkoweb</h1></NavbarBrand>
                 </div>
-            <NavbarToggler onClick={toggleNavbar} className="navigation" />
+            <NavbarToggler onClick={toggleNavbar} className="navigation">
+                <p>Menu</p>
+                </NavbarToggler> 
             <Collapse isOpen={!collapsed} navbar>
                 <Nav navbar>
                    
