@@ -1,14 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
-const Home = (props) => {
+const Home = () => {
 
     return (
         <main className="main-home">
-        <div className="intro">
-          <h1>My name is Faris Asic and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>
-          <p>After being involved in the telecom industry for many years in tech support, service delivery, and business analyst roles, I've decided it's time to make a change and take a leap into web development. Here you can find some of my latest projects in my newfound passion.</p>
-        </div>
+          <div className="intro">
+            <h1>My name is Faris Asic and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>
+          </div>
+          <div className="btn-div">
+              <button className="btn-projects"><Link to='/projects'>View Projects &rarr;</Link></button>
+          </div>
         </main>
       )
 

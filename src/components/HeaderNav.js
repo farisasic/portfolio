@@ -25,21 +25,22 @@ const HeaderNav = (props) => {
                 </div>
             <NavbarToggler onClick={toggleNavbar} className="navigation">
                 <p>Menu</p>
-                </NavbarToggler> 
+            </NavbarToggler>
+             
             <Collapse isOpen={!collapsed} navbar>
                 <Nav navbar>
                    
-                        <NavItem>    
-                            <NavLink onClick={toggleNavbar} to="/" exact>Home</NavLink>
-                        </NavItem>
+                    <NavItem>    
+                        <NavLink onClick={toggleNavbar} to="/" exact>Home</NavLink>
+                    </NavItem>
 
-                        <NavItem>              
-                            <NavLink onClick={toggleNavbar} to="/projects">Projects</NavLink>
-                        </NavItem>
+                    <NavItem>              
+                        <NavLink onClick={toggleNavbar} to="/projects">Projects</NavLink>
+                    </NavItem>
 
-                        <NavItem>               
-                            <NavLink onClick={toggleNavbar} to="/about">About</NavLink>
-                        </NavItem>
+                    <NavItem>               
+                        <NavLink onClick={toggleNavbar} to="/about">About</NavLink>
+                    </NavItem>
                           
                 </Nav>
             </Collapse>

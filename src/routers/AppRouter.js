@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Home from '../components/Home';
+import Projects from '../components/Projects';
+import About from '../components/About';
 //import { APP_FOLDER_NAME } from '../globals/variables';
 import PageNotFound from '../components/PageNotFound';
 
@@ -19,6 +21,8 @@ const AppRouter = () => (
       <Header />   
         <Switch>
           <Route path="/" exact><Home /></Route>
+          <Route path="/about"><About /></Route>
+          <Route path="/projects"><Projects /></Route>
           <Route><PageNotFound /></Route>
         </Switch>
       <Footer />
