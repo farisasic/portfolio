@@ -8,6 +8,7 @@ import {
     Nav,
     NavItem,
   } from 'reactstrap';
+  import Fade from 'react-reveal/Fade';
 
  
 
@@ -29,19 +30,21 @@ const HeaderNav = (props) => {
              
             <Collapse isOpen={!collapsed} navbar>
                 <Nav navbar>
-                   
+                <Fade left>
                     <NavItem>    
                         <NavLink onClick={toggleNavbar} to="/" exact>Home</NavLink>
                     </NavItem>
-
+                    </Fade>
+                    <Fade left>
                     <NavItem>              
                         <NavLink onClick={toggleNavbar} to="/projects">Projects</NavLink>
                     </NavItem>
-
+                    </Fade>
+                    <Fade left>
                     <NavItem>               
                         <NavLink onClick={toggleNavbar} to="/about">About</NavLink>
                     </NavItem>
-                          
+                    </Fade>     
                 </Nav>
             </Collapse>
         </Navbar>
