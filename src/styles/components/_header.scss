@@ -93,18 +93,13 @@ h1 {
 button {
     background-color: #fcfcfc;
     border-radius: 6px;
-    border: 1px solid;
+    border: 1.5px solid;
     cursor: pointer;
 }
 
 .navbar-toggler {
     padding: 3px 12px;
-}
-
-button p{
-    text-transform: uppercase;
     color: $black;
-    font-weight: 700;
 }
 
 .active {

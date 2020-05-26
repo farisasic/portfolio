@@ -9,6 +9,7 @@ import {
     NavItem,
   } from 'reactstrap';
   import Fade from 'react-reveal/Fade';
+  import { Menu } from 'react-feather';
 
  
 
@@ -25,22 +26,22 @@ const HeaderNav = (props) => {
                     <NavbarBrand href="/" className="logo-link"><h1>Farkoweb</h1></NavbarBrand>
                 </div>
             <NavbarToggler onClick={toggleNavbar} className="navigation">
-                <p>Menu</p>
+                <Menu  size={30} />
             </NavbarToggler>
              
             <Collapse isOpen={!collapsed} navbar>
                 <Nav navbar>
-                <Fade left>
+                <Fade left duration={700}>
                     <NavItem>    
                         <NavLink onClick={toggleNavbar} to="/" exact>Home</NavLink>
                     </NavItem>
                     </Fade>
-                    <Fade left>
+                    <Fade left duration={1000}>
                     <NavItem>              
                         <NavLink onClick={toggleNavbar} to="/projects">Projects</NavLink>
                     </NavItem>
                     </Fade>
-                    <Fade left>
+                    <Fade left duration={1200}>
                     <NavItem>               
                         <NavLink onClick={toggleNavbar} to="/about">About</NavLink>
                     </NavItem>
