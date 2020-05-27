@@ -1,9 +1,9 @@
-header{
+header {
     background-color: #fcfcfc;
     font-family: $headingFont;
     font-weight: 400;
     margin: 0;
-    
+
 }
 
 .logo {
@@ -26,15 +26,15 @@ header{
     margin-bottom: 5px;
     justify-content: space-between;
     text-decoration: none;
-    
+
     a {
         display: flex;
-        
-        font-size: 1.2em;  
+
+        font-size: 1.2em;
         padding-top: 7px;
         text-decoration: none;
-       
-    } 
+
+    }
 }
 
 .navbar-nav {
@@ -42,13 +42,13 @@ header{
     display: inline-block;
     flex-direction: column;
     padding-left: 10px;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .collapse:not(.show) {
     display: none;
     text-decoration: none;
-    
+
 }
 
 
@@ -105,6 +105,3 @@ button {
 .active {
     font-weight: 700;
 }
-
-        
-    
