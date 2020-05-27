@@ -12,11 +12,12 @@ import Header from '../components/Header';
 import Home from '../components/Home';
 import Projects from '../components/Projects';
 import About from '../components/About';
-//import { APP_FOLDER_NAME } from '../globals/variables';
+
 import PageNotFound from '../components/PageNotFound';
 
 import config from 'react-reveal/globals';
 config({ ssrFadeout: true });
+
 
 const AppRouter = () => (
     <Router>

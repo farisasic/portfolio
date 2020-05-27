@@ -10,14 +10,17 @@ import {
   } from 'reactstrap';
   import Fade from 'react-reveal/Fade';
   import { Menu } from 'react-feather';
+  import { Mail } from 'react-feather';
+  import {EMAIL} from '../globals/variables';
 
- 
 
 const HeaderNav = (props) => {
 
+    
+
     const [collapsed, setCollapsed] = useState(true);
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
+    const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
         
@@ -45,6 +48,13 @@ const HeaderNav = (props) => {
                     <NavItem>               
                         <NavLink onClick={toggleNavbar} to="/about">About</NavLink>
                     </NavItem>
+                    </Fade>
+                    <Fade left duration={1500}>
+                        <NavItem>
+                            <a href={EMAIL}>
+                                <Mail size={25}/>
+                            </a>
+                        </NavItem>
                     </Fade>     
                 </Nav>
             </Collapse>

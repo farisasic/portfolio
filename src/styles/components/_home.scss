@@ -2,7 +2,7 @@ main {
     background-color: #fcfcfc;
     font-family: $bodyFont;
     margin-top: 30px;
-    height: 100vh;
+    
     
     h1{
         color: $black;
@@ -34,4 +34,10 @@ main {
             font-weight: 700;
             
         }
+}
+
+.vancouver-pic {
+    text-align: center;
+    padding: 10px;
+    margin-top: 70px;
 }
