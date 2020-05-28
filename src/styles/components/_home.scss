@@ -42,14 +42,47 @@ main {
     margin-top: 20px;
     display: inline-block;
     justify-content: center;
+    
         img{
             border-radius: 6px;
             margin-top: 20px;
             max-width: 80%;
+            box-shadow: 10px 10px 5px $lightGray;
+            
         }
 }
 
+
 .moviedb {
     margin-bottom: 10px;
+}
+
+.game-project {
+    position: relative;
+
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        opacity: 0;
+    }
+    
+}
+
+
+.game-project:hover {
+    
+    
+    img {
+        
+        transition: all 2s ease;
+        opacity: 0.2;
+    }
+    
+    svg{
+        transition: all 2s ease;
+        opacity: 1;
+        
+    }
 }
 
