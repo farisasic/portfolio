@@ -36,15 +36,16 @@ const Home = () => {
             </a>
           </div>
 
+          <div className='moviedb'>
+            <img src={`${MovieDb}`} alt='moviedb-using-api' />
+            <div className='moviedb-show'></div>
+          </div>
+
           <div className='landing-page'>
             <img src={`${Landing}`} alt='school-landing-page' />
             <div className='landing-page-show'></div>
           </div>
 
-          <div className='moviedb'>
-            <img src={`${MovieDb}`} alt='moviedb-using-api' />
-            <div className='moviedb-show'></div>
-          </div>
         </div>
       </Fade>
 

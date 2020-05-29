@@ -9,12 +9,12 @@ const ProjectsPageData = (arr) => {
 
         return (
             <div key={i} className={`project-0${i + 1}`}>
-                <div className="project-container">
-                    <h1>{contentP.title}</h1>
-                    <p>{contentP.text}</p>
-                    <img src={contentP.image} alt={contentP.title} />
-                    <p>Tools used: {contentP.tools}</p>
-                </div>
+
+                <h1>{contentP.title}</h1>
+                <p>{contentP.text}</p>
+                <img src={contentP.image} alt={contentP.title} />
+                <p>Tools used: {contentP.tools}</p>
+
             </div>
         )
     }
