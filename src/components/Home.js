@@ -7,7 +7,7 @@ import GameProject from "../images/Game Project Assets/game-project-interface-sc
 import Landing from "../images/Landing Page Assets/landing-page-website-screenshot-1680.jpg";
 import MovieDb from "../images/MovieDB Assets/moviedb-homepage-screenshot-1680.jpg";
 import { GitHub } from "react-feather";
-import { GITHUBLINK } from "../globals/variables";
+import { GITHUBLINKGAME } from "../globals/variables";
 
 
 const Home = () => {
@@ -29,10 +29,9 @@ const Home = () => {
 
       <Fade up duration={2000}>
         <div className='project-pic' >
-
           <div className='game-project'>
             <img src={`${GameProject}`} alt='javascript-game-issd' />
-            <a href={GITHUBLINK} rel='noopener noreferrer' target='_blank'>
+            <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
               <GitHub size={60} />
             </a>
           </div>
