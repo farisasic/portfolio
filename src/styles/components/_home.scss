@@ -15,7 +15,7 @@ main {
 
 .btn-div {
     margin-top: 30px;
-    text-align: center;
+    text-align: center;   
 }
 
 .btn-projects {
@@ -31,9 +31,17 @@ main {
         a {
             text-decoration: none;
             color: $black;
-            font-weight: 700;
-            
+            font-weight: 700;            
         }
+}
+
+.btn-projects:hover {
+    background-color: $black;
+    transition: all 1s ease;
+    
+    a{
+        color: white;
+    }
 }
 
 .project-pic {
@@ -69,9 +77,62 @@ main {
     
 }
 
+.moviedb {
+    position: relative;
+
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        opacity: 0;
+    }
+    
+}
+
+.landing-page {
+    position: relative;
+
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        opacity: 0;
+    }
+    
+}
+
 
 .game-project:hover {
+
+    img {
+        
+        transition: all 2s ease;
+        opacity: 0.2;
+    }
     
+    svg{
+        transition: all 2s ease;
+        opacity: 1;
+        
+    }
+}
+
+.moviedb:hover {
+    
+    img {
+        
+        transition: all 2s ease;
+        opacity: 0.2;
+    }
+    
+    svg{
+        transition: all 2s ease;
+        opacity: 1;
+        
+    }
+}
+
+.landing-page:hover {
     
     img {
         

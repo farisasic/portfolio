@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import { ProjectsListData } from "../components/ProjectsPageData";
 import { projectsList } from "../data/projectsList";
 
+
 const Projects = () => {
 	return (
 		<main className='projects-home'>
