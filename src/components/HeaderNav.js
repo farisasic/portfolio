@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from "reactstrap";
 import Fade from "react-reveal/Fade";
-import { Menu } from "react-feather";
-import { Mail } from "react-feather";
+import { FiMail, FiMenu } from "react-icons/fi";
 import { EMAIL } from "../globals/variables";
 
 const HeaderNav = (props) => {
@@ -19,7 +18,7 @@ const HeaderNav = (props) => {
 				</NavbarBrand>
 			</div>
 			<NavbarToggler onClick={toggleNavbar} className='navigation'>
-				<Menu size={30} />
+				<FiMenu size={30} />
 			</NavbarToggler>
 
 			<Collapse isOpen={!collapsed} navbar>
@@ -48,7 +47,7 @@ const HeaderNav = (props) => {
 					<Fade left duration={1500}>
 						<NavItem>
 							<a href={EMAIL}>
-								<Mail size={25} />
+								<FiMail size={25} />
 							</a>
 						</NavItem>
 					</Fade>

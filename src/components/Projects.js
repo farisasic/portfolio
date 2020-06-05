@@ -12,9 +12,9 @@ const Projects = () => {
 					<h1 >Here are some of my projects that I have been involved in at BCIT:</h1>
 				</div>
 			</Fade>
-			<section className="projects">
+			<div className="projects">
 				{projectsList && <ProjectsListData content={projectsList} />}
-			</section>
+			</div>
 
 
 		</main>

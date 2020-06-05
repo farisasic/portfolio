@@ -102,7 +102,7 @@ main {
 }
 
 
-.game-project:hover {
+.game-project:hover, .game-project:active {
 
     img {
         
@@ -117,7 +117,7 @@ main {
     }
 }
 
-.moviedb:hover {
+.moviedb:hover, .moviedb:active {
     
     img {
         
@@ -132,7 +132,7 @@ main {
     }
 }
 
-.landing-page:hover {
+.landing-page:hover, .landing-page:active {
     
     img {
         

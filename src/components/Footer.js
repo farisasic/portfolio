@@ -1,5 +1,5 @@
 import React from "react";
-import { Linkedin, Mail, GitHub } from "react-feather";
+import { FiLinkedin, FiMail, FiGithub } from "react-icons/fi";
 import { EMAIL, LINKEDIN, GITHUBLINK } from "../globals/variables";
 
 const Footer = () => {
@@ -7,13 +7,13 @@ const Footer = () => {
 		<footer>
 			<div className='contact'>
 				<a href={LINKEDIN} rel='noopener noreferrer' target='_blank'>
-					<Linkedin color='white' size={30} />
+					<FiLinkedin color='white' size={30} />
 				</a>
 				<a href={EMAIL}>
-					<Mail color='white' size={30} />
+					<FiMail color='white' size={30} />
 				</a>
 				<a href={GITHUBLINK} rel='noopener noreferrer' target='_blank'>
-					<GitHub color='white' size={30} />
+					<FiGithub color='white' size={30} />
 				</a>
 
 				<p>Faris Asic &copy; 2020</p>

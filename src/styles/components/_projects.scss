@@ -14,6 +14,26 @@
     
 }
 
-.code-pop:hover{
-    transform: scale(1.02);
+ /*.code-pop:active{ 
+
+    img{
+        transform: scale(1.02);
+    }
+    
+}*/
+
+.projects-list p {
+    display: inline-block;
+    text-align: left;
+   
+    span{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+            svg{
+                stroke: $black;
+                fill: $black;
+                color: $black;
+            }
+    }
 }

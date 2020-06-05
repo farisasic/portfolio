@@ -1,12 +1,10 @@
 import React from "react";
-import {
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import GameProject from "../images/Game Project Assets/game-project-interface-screenshot-1680.jpg";
 import Landing from "../images/Landing Page Assets/landing-page-website-screenshot-1680.jpg";
 import MovieDb from "../images/MovieDB Assets/moviedb-homepage-screenshot-1680.jpg";
-import { GitHub } from "react-feather";
+import { FiGithub } from "react-icons/fi";
 import { GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB } from "../globals/variables";
 
 
@@ -32,21 +30,21 @@ const Home = () => {
           <div className='game-project'>
             <img src={`${GameProject}`} alt='javascript-game-issd' />
             <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
-              <GitHub size={60} />
+              <FiGithub size={60} />
             </a>
           </div>
 
           <div className='moviedb'>
             <img src={`${MovieDb}`} alt='moviedb-using-api' />
             <a href={GITHUBLINKMOVIEDB} rel='noopener noreferrer' target='_blank'>
-              <GitHub size={60} />
+              <FiGithub size={60} />
             </a>
           </div>
 
           <div className='landing-page'>
             <img src={`${Landing}`} alt='school-landing-page' />
             <a href={GITHUBLINKLANDING} rel='noopener noreferrer' target='_blank'>
-              <GitHub size={60} />
+              <FiGithub size={60} />
             </a>
           </div>
 

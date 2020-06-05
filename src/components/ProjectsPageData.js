@@ -1,26 +1,24 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
-
 const ProjectsPageData = (arr) => {
 
-    const projectsListTest = arr;
+    const projectsList = arr;
 
-    return projectsListTest.content.map((contentP, i) => {
+    return projectsList.content.map((contentP, id) => {
 
         return (
-            <div key={i} className={`project-0${i + 1}`}>
+
+            <div key={id} className={`project-0${id + 1}`}>
                 <Fade left >
                     <h1>{contentP.title}</h1>
                 </Fade>
                 <Fade right >
                     <p>{contentP.text}</p>
                 </Fade>
-                <div className="code-pop">
-                    <img src={contentP.image} alt={contentP.title} />
-                </div>
-                <Fade left >
-                    <p>Tools used: {contentP.tools}</p>
+                <img src={contentP.image} alt={contentP.title} />
+                <Fade left>
+                    <p>Created With: {(() => { return contentP.tools.map((toolsP, id) => { return (<span key={id}> {toolsP}</span>) }) })()}</p>
                 </Fade>
             </div>
         )
