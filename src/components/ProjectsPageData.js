@@ -1,5 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import { FiGithub } from "react-icons/fi";
+
 
 const ProjectsPageData = (arr) => {
 
@@ -16,6 +18,9 @@ const ProjectsPageData = (arr) => {
                 <Fade right >
                     <p>{contentP.text}</p>
                 </Fade>
+                <a href={contentP.github} rel='noopener noreferrer' target='_blank'>
+                    <FiGithub size={30} />
+                </a>
                 <img src={contentP.image} alt={contentP.title} />
                 <Fade left>
                     <p>Created With: {(() => { return contentP.tools.map((toolsP, id) => { return (<span key={id}> {toolsP}</span>) }) })()}</p>

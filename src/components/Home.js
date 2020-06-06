@@ -28,6 +28,7 @@ const Home = () => {
       <Fade up duration={2000}>
         <div className='project-pic' >
           <div className='game-project'>
+            <h1>Javascript Game</h1>
             <img src={`${GameProject}`} alt='javascript-game-issd' />
             <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
               <FiGithub size={60} />
@@ -35,6 +36,7 @@ const Home = () => {
           </div>
 
           <div className='moviedb'>
+            <h1>Movie DB</h1>
             <img src={`${MovieDb}`} alt='moviedb-using-api' />
             <a href={GITHUBLINKMOVIEDB} rel='noopener noreferrer' target='_blank'>
               <FiGithub size={60} />
@@ -42,6 +44,7 @@ const Home = () => {
           </div>
 
           <div className='landing-page'>
+            <h1>Personal School Landing Page</h1>
             <img src={`${Landing}`} alt='school-landing-page' />
             <a href={GITHUBLINKLANDING} rel='noopener noreferrer' target='_blank'>
               <FiGithub size={60} />

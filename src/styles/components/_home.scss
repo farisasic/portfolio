@@ -46,7 +46,7 @@ main {
 
 .project-pic {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
     display: inline-block;
     justify-content: center;
@@ -79,6 +79,10 @@ main {
 
 .moviedb {
     position: relative;
+
+    h1{
+        padding-top: 10px;
+    }
 
     svg {
         position: absolute;
@@ -147,3 +151,14 @@ main {
     }
 }
 
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+        img{
+            height: 160px;
+            line-height: 160px;
+        }
+  }
