@@ -25,12 +25,11 @@
 .projects-list p {
     display: inline-block;
     text-align: left;
-   
-    span{
+    span {
         display: flex;
         justify-content: center;
         margin: 5px;
-            svg{
+            svg {
                 stroke: $black;
                 fill: $black;
                 color: $black;
@@ -38,9 +37,13 @@
     }
 }
 
-.projects-list a {
-    
+.github-link a{
     display: flex;
     justify-content: center;
-    
+    cursor: pointer;
+
+    svg {
+        margin: 5px;
+    }
 }
+
