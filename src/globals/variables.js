@@ -20,6 +20,7 @@ export const GITHUBLINK = "https://github.com/farisasic";
 
 export const APP_FOLDER_NAME = '/portfolio';
 
+export const FARIS = require("../images/Faris.jpeg");
 export const GPAI = require("../images/Game-Project-Assets/game-project-interface-screenshot-1680.jpg");
 export const GPAC = require("../images/Game-Project-Assets/carbon.png");
 export const MDBAI = require("../images/MovieDB-Assets/moviedb-homepage-screenshot-1680.jpg");

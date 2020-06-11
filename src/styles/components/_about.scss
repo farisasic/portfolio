@@ -9,5 +9,17 @@ main {
         padding: 0 20px 5px 20px;
         text-align: left;
     }
+}
 
+.my-picture {
+    text-align: center;
+
+    img {
+        border-radius: 6px;
+        margin-top: 20px;
+        max-width: 80%;
+        box-shadow: 5px 5px 10px #6b6e70;
+        height: 300px;
+        margin-bottom: 20px;
+    }
 }

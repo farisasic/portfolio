@@ -1,9 +1,6 @@
 import { HTMLSVG, JSSVG, JQUERYSVG, SASSSVG, REACTSVG, GITSVG, NPMSVG, CSSSVG, GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, GPAC, MDBAI, MDBAC, LPAI, LPAC } from "../globals/variables";
 
-
 export const projectsList = {
-
-
 
     content: [
         {

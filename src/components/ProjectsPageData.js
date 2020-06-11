@@ -28,10 +28,9 @@ const ProjectsPageData = (arr) => {
                     </div>
                 </Fade>
 
-                {contentP.image.map((imageP, index) => {
-
+                {contentP.image.map((imageP, id) => {
                     return (
-                        <div key={index}>
+                        <div key={id}>
                             <img src={imageP} alt={contentP.title} />
                         </div>
                     )
@@ -39,7 +38,14 @@ const ProjectsPageData = (arr) => {
                 }
 
                 <Fade left>
-                    <p>Created With:{(() => { return contentP.tools.map((toolsP, id) => { return (<span key={id}> {toolsP}</span>) }) })()}</p>
+                    <p>Created With:
+                        {contentP.tools.map((toolsP, id) => {
+                        return (
+                            <span key={id}> {toolsP}</span>
+                        )
+                    })
+                        }
+                    </p>
                 </Fade>
             </div>
         )

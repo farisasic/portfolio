@@ -6,6 +6,12 @@
     justify-content: center;
 }
 
+.projects-list h1 {
+    border-top: 1px solid $black;
+    padding: 10px;
+    
+}
+
 .projects-list img {
     border-radius: 6px;
     margin-top: 20px;
@@ -13,14 +19,6 @@
     box-shadow: 5px 5px 10px #6b6e70;
     
 }
-
- /*.code-pop:active{ 
-
-    img{
-        transform: scale(1.02);
-    }
-    
-}*/
 
 .projects-list p {
     display: inline-block;
