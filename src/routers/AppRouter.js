@@ -14,12 +14,12 @@ import Projects from "../components/Projects";
 import About from "../components/About";
 import PageNotFound from "../components/PageNotFound";
 
-
+import { APP_FOLDER_NAME } from '../globals/variables';
 import config from "react-reveal/globals";
 config({ ssrFadeout: true });
 
 const AppRouter = () => (
-	<Router>
+	<Router basename={APP_FOLDER_NAME}>
 		<div className='wrapper'>
 			<Header />
 			<Switch>
