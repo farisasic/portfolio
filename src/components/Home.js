@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-import GameProject from "../images/Game Project Assets/game-project-interface-screenshot-1680.jpg";
-import Landing from "../images/Landing Page Assets/landing-page-website-screenshot-1680.jpg";
-import MovieDb from "../images/MovieDB Assets/moviedb-homepage-screenshot-1680.jpg";
+import GameProject from "../images/Game-Project-Assets/game-project-interface-screenshot-1680.jpg";
+import Landing from "../images/Landing-Page-Assets/landing-page-website-screenshot-1680.jpg";
+import MovieDb from "../images/MovieDB-Assets/moviedb-homepage-screenshot-1680.jpg";
 import { FiGithub } from "react-icons/fi";
 import { GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB } from "../globals/variables";
 

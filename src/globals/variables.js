@@ -19,3 +19,10 @@ export const GITHUBLINKMOVIEDB = "https://github.com/farisasic/movie-app";
 export const GITHUBLINK = "https://github.com/farisasic";
 
 export const APP_FOLDER_NAME = '/portfolio';
+
+export const GPAI = require("../images/Game-Project-Assets/game-project-interface-screenshot-1680.jpg");
+export const GPAC = require("../images/Game-Project-Assets/carbon.png");
+export const MDBAI = require("../images/MovieDB-Assets/moviedb-homepage-screenshot-1680.jpg");
+export const MDBAC = require("../images/MovieDB-Assets/carbon.png");
+export const LPAI = require("../images/Landing-Page-Assets/landing-page-website-screenshot-1680.jpg");
+export const LPAC = require("../images/Landing-Page-Assets/carbon.png");

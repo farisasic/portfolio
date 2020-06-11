@@ -22,12 +22,22 @@ const ProjectsPageData = (arr) => {
                     <div className='github-link'>
                         <p>Github Link:
                     <a href={contentP.github} rel='noopener noreferrer' target='_blank'>
-                                <FiGithub size={30} />
+                                <FiGithub size={60} />
                             </a>
                         </p>
                     </div>
                 </Fade>
-                <img src={contentP.image} alt={contentP.title} />
+
+                {contentP.image.map((imageP, index) => {
+
+                    return (
+                        <div key={index}>
+                            <img src={imageP} alt={contentP.title} />
+                        </div>
+                    )
+                })
+                }
+
                 <Fade left>
                     <p>Created With:{(() => { return contentP.tools.map((toolsP, id) => { return (<span key={id}> {toolsP}</span>) }) })()}</p>
                 </Fade>
