@@ -32,7 +32,6 @@ header {
         font-size: 1.2em;
         padding-top: 7px;
         text-decoration: none;
-
     }
 }
 
@@ -47,7 +46,6 @@ header {
 .collapse:not(.show) {
     display: none;
     text-decoration: none;
-
 }
 
 
@@ -77,7 +75,6 @@ header {
     -webkit-transition: height 0.3s ease-out;
     -moz-transition: height 0.3s ease-out;
     transition: height 0.3s ease-out;
-
 }
 
 ul {
@@ -103,4 +100,48 @@ button {
 
 .active {
     font-weight: 700;
+}
+
+
+@media only screen and (min-width: 700px){
+
+    button {
+        display: none;
+    }
+
+    .collapse:not(.show) {
+        display: flex;
+    }
+
+    .logo {
+        font-size: 1.8vw;
+    }
+
+    .navbar-collapse {
+       flex-basis: 0;
+       flex-grow: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 2vw;
+    }
+
+    .navbar-nav a {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px;
+        
+        svg {
+            size: 3vw;
+            height: 3vw;
+            width: 3vw;
+        }
+    
+    }
+    
+
+
 }
