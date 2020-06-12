@@ -7,13 +7,18 @@ const ProjectsPageData = (arr) => {
 
     const projectsList = arr;
 
-    return projectsList.content.map((contentP, id) => {
+    return projectsList.content.map((contentP, i) => {
+
+
 
         return (
 
-            <div key={id} className={`project-0${id + 1}`} >
+            <div key={i} className={`project-0${i + 1}`} >
+
                 <Fade left >
-                    <h1>{contentP.title}</h1>
+                    <div className='page-link'>
+                        <h1><a href={contentP.link} rel='noopener noreferrer' target='_blank'>{contentP.title}</a></h1>
+                    </div>
                 </Fade>
                 <Fade right >
                     <p>{contentP.text}</p>
@@ -28,9 +33,9 @@ const ProjectsPageData = (arr) => {
                     </div>
                 </Fade>
 
-                {contentP.image.map((imageP, id) => {
+                {contentP.image.map((imageP, i) => {
                     return (
-                        <div key={id}>
+                        <div key={i}>
                             <img src={imageP} alt={contentP.title} />
                         </div>
                     )
@@ -39,9 +44,9 @@ const ProjectsPageData = (arr) => {
 
                 <Fade left>
                     <p>Created With:
-                        {contentP.tools.map((toolsP, id) => {
+                        {contentP.tools.map((toolsP, i) => {
                         return (
-                            <span key={id}> {toolsP}</span>
+                            <span key={i}> {toolsP}</span>
                         )
                     })
                         }

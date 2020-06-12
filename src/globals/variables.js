@@ -18,7 +18,9 @@ export const GITHUBLINKLANDING = "https://github.com/farisasic/landing-page-proj
 export const GITHUBLINKMOVIEDB = "https://github.com/farisasic/movie-app";
 export const GITHUBLINK = "https://github.com/farisasic";
 
-export const APP_FOLDER_NAME = '/portfolio';
+export const JSGAME = "http://fasic.bcitwebdeveloper.ca/game-project/index.html";
+export const MDB = "http://fasic.bcitwebdeveloper.ca/movie-app/";
+export const LP = "http://fasic.bcitwebdeveloper.ca/";
 
 export const FARIS = require("../images/Faris.jpeg");
 export const GPAI = require("../images/Game-Project-Assets/game-project-interface-screenshot-1680.jpg");

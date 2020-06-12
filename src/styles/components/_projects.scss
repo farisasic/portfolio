@@ -16,7 +16,7 @@
     border-radius: 6px;
     margin-top: 20px;
     max-width: 80%;
-    box-shadow: 5px 5px 10px #6b6e70;
+    box-shadow: 1px 1px 5px $lightGray;
     
 }
 
@@ -45,3 +45,15 @@
     }
 }
 
+.page-link a {
+    color: $black;
+    
+    cursor: pointer;
+}
+
+.page-link a:focus,
+.page-link a:active,
+.page-link a:hover {
+    letter-spacing: 1px;
+    transition: all 0.5s ease 0s;
+}
