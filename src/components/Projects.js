@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import { ProjectsListData } from "../components/ProjectsPageData";
 import { projectsList } from "../data/projectsList";
-import FaArrowCircleUp from "../components/ScrollToTop";
+
 
 const Projects = () => {
 
@@ -17,7 +17,7 @@ const Projects = () => {
 			<div className="projects">
 				{projectsList && <ProjectsListData content={projectsList} />}
 			</div>
-			<FaArrowCircleUp />
+
 
 		</main>
 	)

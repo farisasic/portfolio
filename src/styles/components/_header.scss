@@ -129,6 +129,14 @@ button {
         font-size: 2vw;
     }
 
+    .navbar-collapse ul a:focus,
+    .navbar-collapse ul a:active,
+    .navbar-collapse ul a:hover {
+    letter-spacing: 0;
+    font-weight: 700;
+    transition: all 0.2s ease 0s;
+}
+
     .navbar-nav a {
         display: flex;
         justify-content: space-evenly;
@@ -141,7 +149,19 @@ button {
         }
     
     }
-    
+}
 
+@media only screen and (min-width: 900px){
+    .navbar-nav{
+        font-size: 1.2em;
+        a svg {
+            size: 1.2em;
+            height: 1.2em;
+            width: 1.2em;
+        }
+    }
 
+    .logo {
+        font-size: 1.2em;
+    }
 }

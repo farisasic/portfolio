@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import { FiGithub } from "react-icons/fi";
 import { GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, LPAI, MDBAI } from "../globals/variables";
-import FaArrowCircleUp from "../components/ScrollToTop";
+
 
 const Home = () => {
   return (
     <main className='main-home' >
+
       <Fade left >
         <div className='intro' >
           <h1 > My name is Faris and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>
+          <p>This is my portfolio website about the projects that I have worked on during my time at school, and also will showcase any projects I may tackle in the future.</p>
         </div>
       </Fade>
 
@@ -24,18 +26,18 @@ const Home = () => {
 
       <Fade up duration={2000}>
         <div className='project-pic' >
-          <div className='game-project'>
-            <h1>Javascript Game</h1>
-            <img src={`${GPAI}`} alt='javascript-game-issd' />
-            <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
-              <FiGithub size={60} />
-            </a>
-          </div>
-
           <div className='moviedb'>
             <h1>Movie DB</h1>
             <img src={`${MDBAI}`} alt='moviedb-using-api' />
             <a href={GITHUBLINKMOVIEDB} rel='noopener noreferrer' target='_blank'>
+              <FiGithub size={60} />
+            </a>
+          </div>
+
+          <div className='game-project'>
+            <h1>Javascript Game</h1>
+            <img src={`${GPAI}`} alt='javascript-game-issd' />
+            <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
               <FiGithub size={60} />
             </a>
           </div>
@@ -50,7 +52,7 @@ const Home = () => {
 
         </div>
       </Fade>
-      <FaArrowCircleUp />
+
     </main>
   );
 };

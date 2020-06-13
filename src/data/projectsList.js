@@ -4,16 +4,6 @@ export const projectsList = {
 
     content: [
         {
-            title: "JavaScript Game",
-            link: JSGAME,
-            id: "JavaScript-Game",
-            text: "First school project that required Javascript logic. A simple matching game that incorporates my favorite video game growing up (International Superstar Soccer Deluxe) with players from EA Sports FIFA Ultimate Team cards. The font used was a Super Nintendo font to add that retro feel. Music was used from the original game as well.",
-            github: GITHUBLINKGAME,
-            tools: [HTMLSVG, JSSVG, JQUERYSVG, SASSSVG],
-            image: [GPAI, GPAC]
-
-        },
-        {
             title: "React Movie DB",
             link: MDB,
             id: "MovieDB",
@@ -21,6 +11,16 @@ export const projectsList = {
             github: GITHUBLINKMOVIEDB,
             tools: [REACTSVG, GITSVG, NPMSVG],
             image: [MDBAI, MDBAC]
+
+        },
+        {
+            title: "JavaScript Game",
+            link: JSGAME,
+            id: "JavaScript-Game",
+            text: "First school project that required Javascript logic. A simple matching game that incorporates my favorite video game growing up (International Superstar Soccer Deluxe) with players from EA Sports FIFA Ultimate Team cards. The font used was a Super Nintendo font to add that retro feel. Music was used from the original game as well.",
+            github: GITHUBLINKGAME,
+            tools: [HTMLSVG, JSSVG, JQUERYSVG, SASSSVG],
+            image: [GPAI, GPAC]
 
         },
         {

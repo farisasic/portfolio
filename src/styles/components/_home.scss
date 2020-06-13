@@ -59,15 +59,11 @@ main {
         }
 }
 
-
-.moviedb {
-    margin-bottom: 10px;
-}
-
 .game-project {
     position: relative;
 
     h1{
+        padding-top: 10px;
         font-family: $headingFont;
         text-transform: uppercase;
         font-size: 4vw;
@@ -84,13 +80,12 @@ main {
 
 .moviedb {
     position: relative;
-
-    h1{
+    margin-bottom: 10px;
+    h1 {
         padding-top: 10px;
-        
-            font-family: $headingFont;
-            text-transform: uppercase;
-            font-size: 4vw;
+        font-family: $headingFont;
+        text-transform: uppercase;
+        font-size: 4vw;
     }
 
     svg {
@@ -106,6 +101,7 @@ main {
     position: relative;
 
     h1{
+        padding-top: 10px;
         font-family: $headingFont;
         text-transform: uppercase;
         font-size: 4vw;
@@ -166,4 +162,27 @@ main {
     }
 }
 
+@media only screen and (min-width: 700px){
+
+    main {
+        max-width: 1140px;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 900px){
+
+    .moviedb h1 {
+        font-size: 1.5em;
+    }
+
+    .game-project h1 {
+        font-size: 1.5em;
+    }
+
+    .landing-page h1 {
+        font-size: 1.5em;
+    }
+}
 
