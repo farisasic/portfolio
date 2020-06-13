@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import { FiGithub } from "react-icons/fi";
 import { GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, LPAI, MDBAI } from "../globals/variables";
-
+import FaArrowCircleUp from "../components/ScrollToTop";
 
 const Home = () => {
   return (
     <main className='main-home' >
-
+      <FaArrowCircleUp />
       <Fade left >
         <div className='intro' >
           <h1 > My name is Faris and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>

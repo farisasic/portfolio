@@ -14,7 +14,7 @@ import Projects from "../components/Projects";
 import About from "../components/About";
 import PageNotFound from "../components/PageNotFound";
 
-import FaArrowCircleUp from "../components/ScrollToTop";
+
 import config from "react-reveal/globals";
 config({ ssrFadeout: true });
 
@@ -25,14 +25,14 @@ const AppRouter = () => (
 			<Switch>
 
 				<Route path='/' exact>
-					<FaArrowCircleUp />
+
 					<Home />
 				</Route>
 				<Route path='/about'>
 					<About />
 				</Route>
 				<Route path='/projects'>
-					<FaArrowCircleUp />
+
 					<Projects />
 				</Route>
 				<Route>
