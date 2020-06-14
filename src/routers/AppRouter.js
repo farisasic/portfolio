@@ -23,16 +23,13 @@ const AppRouter = () => (
 		<div className='wrapper'>
 			<Header />
 			<Switch>
-
 				<Route path='/' exact>
-
 					<Home />
 				</Route>
 				<Route path='/about'>
 					<About />
 				</Route>
 				<Route path='/projects'>
-
 					<Projects />
 				</Route>
 				<Route>

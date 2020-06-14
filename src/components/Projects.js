@@ -8,18 +8,15 @@ const Projects = () => {
 
 	return (
 		<main className='projects-home'>
-			<FaArrowCircleUp />
 			<Fade left >
 				<div className='intro' >
 					<h1 >Here are some of my projects that I have been involved in at BCIT:</h1>
 				</div>
 			</Fade>
-
 			<div className="projects">
 				{projectsList && <ProjectsListData content={projectsList} />}
 			</div>
-
-
+			<FaArrowCircleUp />
 		</main>
 	)
 };

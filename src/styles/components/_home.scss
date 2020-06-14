@@ -2,12 +2,18 @@ main {
     background-color: #fcfcfc;
     font-family: $bodyFont;
     margin-top: 30px;
-    
         h1 {
             color: $black;
             font-size: 1.1em;
             padding: 0 20px 5px 20px;
             text-align: left;
+        }
+        p{
+            color: $black;
+            font-size: 1em;
+            padding: 0 20px 5px 20px;
+            text-align: left;
+            line-height: 20pt;
         }
 }
 
@@ -25,7 +31,6 @@ main {
     border-radius: 6px;
     border: 1.5px solid;
     padding: 10px 20px;
-    
         a {
             text-decoration: none;
             color: $black;
@@ -36,7 +41,6 @@ main {
 .btn-projects:hover {
     background-color: $black;
     transition: all 1s ease;
-
         a {
             color: white;
         }
@@ -48,7 +52,6 @@ main {
     margin-top: 20px;
     display: inline-block;
     justify-content: center;
-    
         img{
             border-radius: 6px;
             margin-top: 20px;
@@ -68,7 +71,6 @@ main {
             text-transform: uppercase;
             font-size: 4vw;
         }
-
         svg {
             position: absolute;
             top: 50%;
@@ -88,7 +90,6 @@ main {
             transition: all 2s ease;
             opacity: 0.2;
         }
-    
         svg {
             transition: all 2s ease;
             opacity: 1;
@@ -96,7 +97,6 @@ main {
 }
 
 @media only screen and (min-width: 700px){
-
     main {
         max-width: 1140px;
         margin: auto;
@@ -105,24 +105,22 @@ main {
     .game-project h1,
     .moviedb h1,
     .landing-page h1 {
-        
         font-size: 3vw;      
     }
 }
 
 @media only screen and (min-width: 900px){
-
     .moviedb h1,
     .game-project h1, 
     .landing-page h1 {
         font-size: 1.5em;
     }
-    
+
     .moviedb svg,
     .game-project svg,
     .landing-page svg {
         size: 90px;
-            height: 90px;
-            width: 90px;
+        height: 90px;
+        width: 90px;
     }
 }

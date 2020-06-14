@@ -25,7 +25,7 @@ const ProjectsPageData = (arr) => {
                 </Fade>
                 <Fade left>
                     <div className='github-link'>
-                        <p>Github Link:
+                        <p>GitHub Link:
                     <a href={contentP.github} rel='noopener noreferrer' target='_blank'>
                                 <FiGithub size={60} />
                             </a>
@@ -43,14 +43,16 @@ const ProjectsPageData = (arr) => {
                 }
 
                 <Fade left>
-                    <p>Created With:
+                    <div className='created-with'>
+                        <p>Created With:
                         {contentP.tools.map((toolsP, i) => {
-                        return (
-                            <span key={i}> {toolsP}</span>
-                        )
-                    })
-                        }
-                    </p>
+                            return (
+                                <span key={i}> {toolsP}</span>
+                            )
+                        })
+                            }
+                        </p>
+                    </div>
                 </Fade>
             </div>
         )

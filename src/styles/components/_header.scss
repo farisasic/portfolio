@@ -3,7 +3,6 @@ header {
     font-family: $headingFont;
     font-weight: 400;
     margin: 0;
-
 }
 
 .logo {
@@ -23,16 +22,15 @@ header {
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     justify-content: space-between;
     text-decoration: none;
-
-    a {
-        display: flex;
-        font-size: 1.2em;
-        padding-top: 7px;
-        text-decoration: none;
-    }
+        a {
+            display: flex;
+            font-size: 1.2em;
+            padding-top: 7px;
+            text-decoration: none;
+        }
 }
 
 .navbar-nav {
@@ -56,10 +54,9 @@ header {
     align-items: center;
     padding-left: 0;
     margin-bottom: 0;
-
-    a {
-        color: $darkGray;
-    }
+        a {
+            color: $darkGray;
+        }
 }
 
 .navbar-collapse ul a:focus,
@@ -102,7 +99,6 @@ button {
     font-weight: 700;
 }
 
-
 @media only screen and (min-width: 700px){
 
     button {
@@ -118,8 +114,8 @@ button {
     }
 
     .navbar-collapse {
-       flex-basis: 0;
-       flex-grow: 0;
+        flex-basis: 0;
+        flex-grow: 0;
     }
 
     .navbar-nav {
@@ -132,9 +128,9 @@ button {
     .navbar-collapse ul a:focus,
     .navbar-collapse ul a:active,
     .navbar-collapse ul a:hover {
-    letter-spacing: 0;
-    font-weight: 700;
-    transition: all 0.2s ease 0s;
+        letter-spacing: 0;
+        font-weight: 700;
+        transition: all 0.2s ease 0s;
 }
 
     .navbar-nav a {
@@ -142,23 +138,22 @@ button {
         justify-content: space-evenly;
         margin: 10px;
         
-        svg {
-            size: 3vw;
-            height: 3vw;
-            width: 3vw;
-        }
-    
+            svg {
+                size: 3vw;
+                height: 3vw;
+                width: 3vw;
+            }
     }
 }
 
 @media only screen and (min-width: 900px){
     .navbar-nav{
         font-size: 1.2em;
-        a svg {
-            size: 1.2em;
-            height: 1.2em;
-            width: 1.2em;
-        }
+            a svg {
+                size: 1.2em;
+                height: 1.2em;
+                width: 1.2em;
+            }
     }
 
     .logo {

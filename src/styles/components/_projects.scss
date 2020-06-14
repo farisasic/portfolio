@@ -7,48 +7,52 @@
 }
 
 .projects-list h1 {
-    border-top: 1px solid $black;
-    padding: 10px;
-    
+    border: 1.5px solid $black;
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    margin-top: 15px;
 }
 
 .projects-list img {
     border-radius: 6px;
-    margin-top: 20px;
+    margin-top: 15px;
     max-width: 80%;
     box-shadow: 1px 1px 5px $lightGray;
-    
 }
 
 .projects-list p {
     display: inline-block;
     text-align: left;
-    span {
-        display: flex;
-        justify-content: center;
-        margin: 5px;
-            svg {
-                stroke: $black;
-                fill: $black;
-                color: $black;
-            }
-    }
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.react-reveal.github-link {
+    display: block;
+    text-align: center;
+    margin: 0;
 }
 
 .github-link a{
     display: flex;
     justify-content: center;
     cursor: pointer;
-
+    color: $black;
     svg {
         margin: 5px;
     }
 }
 
+.page-link {
+    padding: 0 10px 5px 10px;
+    border-top: 1px solid $black;
+}
+
 .page-link a {
     color: $black;
-    
     cursor: pointer;
+    text-decoration: none;
 }
 
 .page-link a:focus,
@@ -56,4 +60,26 @@
 .page-link a:hover {
     letter-spacing: 1px;
     transition: all 0.5s ease 0s;
+}
+
+.react-reveal.page-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.react-reveal.created-with {
+    justify-content: space-evenly;
+}
+
+.react-reveal.created-with span {
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-evenly;
+        svg {
+            size: 2.2em;
+            height: 2.2em;
+            width: 2.2em;
+            
+        }
 }

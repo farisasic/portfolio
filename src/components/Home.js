@@ -8,11 +8,10 @@ import FaArrowCircleUp from "../components/ScrollToTop";
 const Home = () => {
   return (
     <main className='main-home' >
-      <FaArrowCircleUp />
       <Fade left >
         <div className='intro' >
-          <h1 > My name is Faris and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>
-          <p>This is my portfolio website about the projects that I have worked on during my time at school, and also will showcase any projects I may tackle in the future.</p>
+          <h1 > Hello and welcome, my name is Faris and I'm a June 2020 graduate from BCIT TWD(Technical Web Developer) Program, based out of Vancouver, BC.</h1>
+          <p>This is my portfolio website about the projects that I have worked on during my time at school. Below are some examples of the latest projects with their corresponding GitHub links. Check out the About page to learn more about me.</p>
         </div>
       </Fade>
 
@@ -30,7 +29,7 @@ const Home = () => {
             <h1>Movie DB</h1>
             <img src={`${MDBAI}`} alt='moviedb-using-api' />
             <a href={GITHUBLINKMOVIEDB} rel='noopener noreferrer' target='_blank'>
-              <FiGithub size={60} />
+              <FiGithub color='#222629' size={60} />
             </a>
           </div>
 
@@ -38,7 +37,7 @@ const Home = () => {
             <h1>Javascript Game</h1>
             <img src={`${GPAI}`} alt='javascript-game-issd' />
             <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
-              <FiGithub size={60} />
+              <FiGithub color='#222629' size={60} />
             </a>
           </div>
 
@@ -46,13 +45,13 @@ const Home = () => {
             <h1>Landing Page</h1>
             <img src={`${LPAI}`} alt='school-landing-page' />
             <a href={GITHUBLINKLANDING} rel='noopener noreferrer' target='_blank'>
-              <FiGithub size={60} />
+              <FiGithub color='#222629' size={60} />
             </a>
           </div>
 
         </div>
       </Fade>
-
+      <FaArrowCircleUp />
     </main>
   );
 };
