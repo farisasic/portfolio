@@ -36,7 +36,7 @@
     text-align: left;
     justify-content: space-evenly;
     margin: 15px;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .react-reveal.github-link {
@@ -86,4 +86,21 @@
             width: 2.2em;
             
         }
+}
+
+@media only screen and (min-width: 700px){
+    .projects-list p {
+        font-size: 1.1em;
+        max-width: 720px;
+}
+
+}
+
+@media only screen and (min-width: 900px){
+    .projects-list p {
+        line-height: 26pt;
+        font-size: 1.2em;
+        max-width: 900px;
+}
+
 }

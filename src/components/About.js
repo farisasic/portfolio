@@ -12,20 +12,20 @@ const About = () => {
 					<h1>My name is Faris Asic and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>
 				</Fade>
 				<Fade right >
-					<p>For the last 15 years, I worked in various roles within the telecom industry; I was a Business Analyst for 3 years, and most recently moved on to more customer-facing roles at Telus. While I enjoyed my time at Telus, I realized that I wanted to explore a new path: Front-End Development. I have always had an interest but I never had the chance to explore.</p>
+					<p>For the last 15 years, I've worked in various roles within the telecom industry; I was a Business Analyst for 3 years, and most recently moved on to a more customer-facing role at TELUS as a Digital Home Technician. While I enjoyed my time at TELUS, I realized that I wanted to explore a new path: Front-End Development. I've always had an interest in but never had the chance to explore.</p>
 				</Fade>
 				<Fade left >
-					<p>I finally took the leap in January 2020 when I enrolled at BCIT and since then, I have been invigorated by all I have learned and am very excited to start my new career as a Front-End Developer. </p>
+					<p>I finally took the leap in January 2020 when I enrolled at BCIT and since then, I've been invigorated by all I've learned and am very excited to start my new career path as a Front-End Developer. </p>
 				</Fade>
 				<Fade right >
-					<p>Outside of my career, I am passionate about soccer and hockey. I will typically spend my Saturday mornings watching EPL and Bundesliga matches; cheering on VfB Stuttgart or Wuerzburger Kickers. As for hockey, go Canucks!</p>
+					<p>Outside of my career, I am passionate about soccer and hockey. My Saturday mornings usually consist of watching EPL and Bundesliga matches; cheering on VfB Stuttgart or Wuerzburger Kickers. As for hockey, go Canucks!</p>
 				</Fade>
 				<Fade left >
 					<p>I am fluent in English, German and Bosnian and have called Vancouver, BC my home since 1998. Thanks for visiting!</p>
 				</Fade>
 				<div className='linkedin-contact'>
 					<Fade left >
-						<p>Add me on <a href={LINKEDIN} rel='noopener noreferrer' target='_blank'><FiLinkedin color='#222629' size={30} /></a></p>
+						<p>Connect with me on <a href={LINKEDIN} rel='noopener noreferrer' target='_blank'><FiLinkedin color='#222629' size={30} /></a></p>
 					</Fade>
 				</div>
 				<div className='my-picture'>

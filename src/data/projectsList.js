@@ -7,7 +7,7 @@ export const projectsList = {
             title: "React Movie DB",
             link: MDB,
             id: "MovieDB",
-            text: 'School group project with two of my peers that involved creating a movie DB with sorting filters (popular, top rated, now playing, upcoming). We also created a page where you can "Favorite" your movie selections using the browsers local storage. The website was created using "TMDB API". Collaboration between teammates was done using GitHub. Website was built on the ReactJS Framework using REST API.',
+            text: 'School group project with two of my peers that involved creating a movie DB with sorting filters (popular, top rated, now playing, upcoming). We also created a page where you can "Favorite" your movie selections using the browsers local storage. The API key was acquired from "The Movie Database (TMDb) API". Collaboration between teammates was done using GitHub. Website was built on the ReactJS Framework using REST API.',
             github: GITHUBLINKMOVIEDB,
             tools: [REACTSVG, GITSVG, NPMSVG],
             image: [MDBAI, MDBAC]
@@ -27,7 +27,7 @@ export const projectsList = {
             title: "Landing Page",
             link: LP,
             id: "Landing-Page",
-            text: "The objective was to build a landing page to submit school projects to teachers/instructors. My goal was to use jQuery for the menu functionality. My joy in building the page was that the website was minimalistic, to the point, and straightforward to navigate.",
+            text: "The objective was to build a landing page to submit school projects to teachers/instructors. My goal was to use jQuery for the menu functionality. I wanted to create a website that was minimalistic, to the point, and straightforward to navigate.",
             github: GITHUBLINKLANDING,
             tools: [HTMLSVG, CSSSVG, JQUERYSVG],
             image: [LPAI, LPAC]
