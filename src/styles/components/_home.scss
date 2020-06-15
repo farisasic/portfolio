@@ -4,7 +4,7 @@ main {
     margin-top: 30px;
         h1 {
             color: $black;
-            font-size: 1.1em;
+            font-size: 1.2em;
             padding: 0 20px 5px 20px;
             text-align: left;
         }
@@ -13,8 +13,29 @@ main {
             font-size: 1em;
             padding: 0 20px 5px 20px;
             text-align: left;
-            line-height: 20pt;
+            line-height: 24pt;
+            margin: 1em auto;
         }
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.react-reveal.intro p {
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $black;
+        cursor: pointer;
+    }
+}
+
+.react-reveal.intro a:hover {
+        font-weight: 700;
 }
 
 .btn-div {
@@ -100,20 +121,37 @@ main {
     main {
         max-width: 1140px;
         margin: auto;
+            h1 {
+                font-size: 1.3em;
+            }
+            p {
+                font-size: 1.1em;
+                max-width: 750px;
+                line-height: 26pt;
+            }
     }
 
-    .game-project h1,
-    .moviedb h1,
-    .landing-page h1 {
-        font-size: 3vw;      
+    .project-pic {
+        padding: 0 20px 20px 20px;
+            h1 {
+            font-size: 3vw;      
+        }
     }
 }
 
 @media only screen and (min-width: 900px){
-    .moviedb h1,
-    .game-project h1, 
-    .landing-page h1 {
-        font-size: 1.5em;
+    main {
+        h1 {
+            font-size: 1.5em
+        }
+        p {
+            font-size: 1.2em;
+            max-width: 900px;
+        }
+    }
+    
+    .project-pic h1 {
+        font-size: 1.4em;
     }
 
     .moviedb svg,

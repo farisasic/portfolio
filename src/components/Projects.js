@@ -10,7 +10,7 @@ const Projects = () => {
 		<main className='projects-home'>
 			<Fade left >
 				<div className='intro' >
-					<h1 >Here are some of my projects that I have been involved in at BCIT:</h1>
+					<h1 >Here are some of the projects that I have been involved in to date:</h1>
 				</div>
 			</Fade>
 			<div className="projects">

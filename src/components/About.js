@@ -1,22 +1,40 @@
 import React from "react";
 import { FARIS, LINKEDIN } from "../globals/variables";
 import { FiLinkedin } from "react-icons/fi";
+import Fade from "react-reveal/Fade";
+import FaArrowCircleUp from "../components/ScrollToTop";
 
 const About = () => {
 	return (
 		<main className='main-about'>
 			<div className='about-me'>
-				<h1>My name is Faris Asic and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>
-				<p>After being involved in the telecom industry for many years in tech support, service delivery, and business analyst roles, I've decided it's time to make a change and take a leap into Front-End Development. Coding was always something that I've thought about in the past but never dared or had the chance to explore. There is great excitement in me that I'm able to present myself this way finally.</p>
-				<p>Soccer and hockey are my other passions. Saturday mornings usually involve watching every match I can of the EPL and Bundesliga live. Some of the teams I support are VfB Stuttgart, Wuerzburger Kickers, Vancouver Whitecaps and the Vancouver Canucks.</p>
-				<p>I've lived in Vancouver, BC since 1998 and proud to call this place my home. No other city can match the beauty of the mountains, ocean, and blue skies on a sunny day, maybe because it's quite rare to have blue skies above Vancouver. I'm also fluent in three languages including English, German and Bosnian. Thanks for visiting.</p>
+				<Fade left >
+					<h1>My name is Faris Asic and I'm a June 2020 graduate from BCIT TWD(Technical Web Designer) Program, based out of Vancouver, BC.</h1>
+				</Fade>
+				<Fade right >
+					<p>For the last 15 years, I worked in various roles within the telecom industry; I was a Business Analyst for 3 years, and most recently moved on to more customer-facing roles at Telus. While I enjoyed my time at Telus, I realized that I wanted to explore a new path: Front-End Development. I have always had an interest but I never had the chance to explore.</p>
+				</Fade>
+				<Fade left >
+					<p>I finally took the leap in January 2020 when I enrolled at BCIT and since then, I have been invigorated by all I have learned and am very excited to start my new career as a Front-End Developer. </p>
+				</Fade>
+				<Fade right >
+					<p>Outside of my career, I am passionate about soccer and hockey. I will typically spend my Saturday mornings watching EPL and Bundesliga matches; cheering on VfB Stuttgart or Wuerzburger Kickers. As for hockey, go Canucks!</p>
+				</Fade>
+				<Fade left >
+					<p>I am fluent in English, German and Bosnian and have called Vancouver, BC my home since 1998. Thanks for visiting!</p>
+				</Fade>
 				<div className='linkedin-contact'>
-					<p>Add me on <a href={LINKEDIN} rel='noopener noreferrer' target='_blank'><FiLinkedin color='#222629' size={30} /></a></p>
+					<Fade left >
+						<p>Add me on <a href={LINKEDIN} rel='noopener noreferrer' target='_blank'><FiLinkedin color='#222629' size={30} /></a></p>
+					</Fade>
 				</div>
 				<div className='my-picture'>
-					<img src={`${FARIS}`} alt="faris-webdev" />
+					<Fade up duration={2000}>
+						<img src={`${FARIS}`} alt="faris-webdev" />
+					</Fade>
 				</div>
 			</div>
+			<FaArrowCircleUp />
 		</main>
 	);
 };

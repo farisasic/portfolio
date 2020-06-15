@@ -10,15 +10,15 @@ const Home = () => {
     <main className='main-home' >
       <Fade left >
         <div className='intro' >
-          <h1 > Hello and welcome, my name is Faris and I'm a June 2020 graduate from BCIT TWD(Technical Web Developer) Program, based out of Vancouver, BC.</h1>
-          <p>This is my portfolio website about the projects that I have worked on during my time at school. Below are some examples of the latest projects with their corresponding GitHub links. Check out the About page to learn more about me.</p>
+          <h1 > Hello and welcome, my name is Faris and I'm a June 2020 graduate from BCIT's TWD(Technical Web Developer) Program, based out of Vancouver, BC.</h1>
+          <p>This is my portfolio website introducing projects that I have worked on during my time at school, as well as some upcoming after graduation. Below are some examples of my latest school work with their corresponding GitHub links. Check out the <Link to='/about' > About </Link> page to learn more about me.</p>
         </div>
       </Fade>
 
       <Fade right >
         <div className='btn-div' >
           <button className='btn-projects' >
-            <Link to='/projects' > View Projects &rarr; </Link>
+            <Link to='/projects' > View My Projects &rarr; </Link>
           </button>
         </div>
       </Fade>

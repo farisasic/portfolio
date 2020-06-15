@@ -36,7 +36,7 @@ const ProjectsPageData = (arr) => {
                 {contentP.image.map((imageP, i) => {
                     return (
                         <div key={i}>
-                            <img src={imageP} alt={contentP.title} />
+                            <img src={imageP} alt={contentP.id} />
                         </div>
                     )
                 })
