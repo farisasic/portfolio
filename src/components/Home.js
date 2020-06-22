@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import { FiGithub } from "react-icons/fi";
-import { GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, LPAI, MDBAI } from "../globals/variables";
+import { GITHUBLINKGAME, GITHUBLINK, GITHUBLINKMOVIEDB, GPAI, STSRM, MDBAI } from "../globals/variables";
 import FaArrowCircleUp from "../components/ScrollToTop";
 
 const Home = () => {
@@ -25,6 +25,15 @@ const Home = () => {
 
       <Fade up duration={2000}>
         <div className='project-pic' >
+          <div className='capstone-seatosky-rapids'>
+            <h1>Landing Page</h1>
+            <img src={`${STSRM}`} alt='capstone-seatosky-rapids' />
+            <a href={GITHUBLINK} rel='noopener noreferrer' target='_blank'>
+              <FiGithub color='#222629' size={60} />
+            </a>
+          </div>
+
+
           <div className='moviedb'>
             <h1>Movie DB</h1>
             <img src={`${MDBAI}`} alt='moviedb-using-api' />
@@ -37,14 +46,6 @@ const Home = () => {
             <h1>Javascript Game</h1>
             <img src={`${GPAI}`} alt='javascript-game-issd' />
             <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
-              <FiGithub color='#222629' size={60} />
-            </a>
-          </div>
-
-          <div className='landing-page'>
-            <h1>Landing Page</h1>
-            <img src={`${LPAI}`} alt='school-landing-page' />
-            <a href={GITHUBLINKLANDING} rel='noopener noreferrer' target='_blank'>
               <FiGithub color='#222629' size={60} />
             </a>
           </div>

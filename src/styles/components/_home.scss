@@ -83,7 +83,7 @@ main {
 
 .game-project,
 .moviedb,
-.landing-page {
+.capstone-seatosky-rapids {
     position: relative;
     margin-bottom: 10px;
         h1 {
@@ -104,8 +104,8 @@ main {
 .game-project:active,
 .moviedb:hover, 
 .moviedb:active,
-.landing-page:hover, 
-.landing-page:active {
+.capstone-seatosky-rapids:hover, 
+.capstone-seatosky-rapids:active {
 
         img { 
             transition: all 2s ease;
@@ -115,6 +115,13 @@ main {
             transition: all 2s ease;
             opacity: 1;
         }
+}
+
+.error-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222629;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 700px){
@@ -156,7 +163,7 @@ main {
 
     .moviedb svg,
     .game-project svg,
-    .landing-page svg {
+    .capstone-seatosky-rapids svg {
         size: 90px;
         height: 90px;
         width: 90px;

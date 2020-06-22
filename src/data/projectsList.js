@@ -1,8 +1,18 @@
-import { HTMLSVG, JSSVG, JQUERYSVG, SASSSVG, REACTSVG, GITSVG, NPMSVG, CSSSVG, GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, GPAC, MDBAI, MDBAC, LPAI, LPAC, JSGAME, MDB, LP } from "../globals/variables";
+import { HTMLSVG, JSSVG, JQUERYSVG, SASSSVG, REACTSVG, GITSVG, NPMSVG, CSSSVG, GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, GPAC, MDBAI, MDBAC, LPAI, LPAC, JSGAME, MDB, LP, STSR, GITHUBLINK, STSRM, STSRD, STSRF, STSRC, WRDPRSS, PHP, APSH } from "../globals/variables";
 
 export const projectsList = {
 
     content: [
+        {
+            title: "Sea To Sky Rapids",
+            link: STSR,
+            id: "SeaToSkyRapids",
+            text: "Capstone project that was built in a group of five people, the biggest and final project of the TWD Program. It involved all phases of development: Discovery Meeting, Planning Phase, Design Phase, Development Phase, and Launch Phase. Our team's choice was to build a fictional rafting company website using the WooCommerce plug-in. The project was a 100% remote collaboration between teammates(due to COVID-19), all communication was done through Slack and/or Google Meet.",
+            github: GITHUBLINK,
+            tools: [WRDPRSS, PHP, GITSVG, APSH],
+            image: [STSRM, STSRD, STSRF, STSRC]
+
+        },
         {
             title: "React Movie DB",
             link: MDB,
