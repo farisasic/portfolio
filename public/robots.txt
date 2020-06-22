@@ -3,4 +3,4 @@
 User-agent: *
 
 Disallow: .ftpquota
-Disallow: underconstruction_stylesheet.css
+Sitemap: https://farkoweb.com/sitemap.xml
