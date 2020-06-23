@@ -5,6 +5,7 @@ import { FiGithub } from "react-icons/fi";
 import { GITHUBLINKGAME, GITHUBLINK, GITHUBLINKMOVIEDB, GPAI, STSRM, MDBAI } from "../globals/variables";
 import FaArrowCircleUp from "../components/ScrollToTop";
 
+
 const Home = () => {
   return (
     <main className='main-home' >
@@ -25,8 +26,9 @@ const Home = () => {
 
       <Fade up duration={2000}>
         <div className='project-pic' >
+          <h1>Featured Content:</h1>
           <div className='capstone-seatosky-rapids'>
-            <h1>Landing Page</h1>
+            <h2>Sea-To-Sky Rapids</h2>
             <img src={`${STSRM}`} alt='capstone-seatosky-rapids' />
             <a href={GITHUBLINK} rel='noopener noreferrer' target='_blank'>
               <FiGithub color='#222629' size={60} />
@@ -35,7 +37,7 @@ const Home = () => {
 
 
           <div className='moviedb'>
-            <h1>Movie DB</h1>
+            <h2>Movie DB</h2>
             <img src={`${MDBAI}`} alt='moviedb-using-api' />
             <a href={GITHUBLINKMOVIEDB} rel='noopener noreferrer' target='_blank'>
               <FiGithub color='#222629' size={60} />
@@ -43,7 +45,7 @@ const Home = () => {
           </div>
 
           <div className='game-project'>
-            <h1>Javascript Game</h1>
+            <h2>Javascript Game</h2>
             <img src={`${GPAI}`} alt='javascript-game-issd' />
             <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
               <FiGithub color='#222629' size={60} />
@@ -53,6 +55,7 @@ const Home = () => {
         </div>
       </Fade>
       <FaArrowCircleUp />
+
     </main>
   );
 };

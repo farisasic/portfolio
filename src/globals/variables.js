@@ -19,8 +19,11 @@ export const LINKEDIN = "http://www.linkedin.com/in/faris-44b15989";
 export const GITHUBLINKGAME = "https://github.com/farisasic/ISSD";
 export const GITHUBLINKLANDING = "https://github.com/farisasic/landing-page-project";
 export const GITHUBLINKMOVIEDB = "https://github.com/farisasic/movie-app";
+export const GITHUBLINKMOVIEDBHOMECODE = "https://github.com/farisasic/movie-app/blob/master/src/components/Home.js";
 export const GITHUBLINK = "https://github.com/farisasic";
 export const GITHUBSEATOSKY = "https://github.com/sea-to-sky-rapids";
+export const GITHUBGAMECODE = "https://github.com/farisasic/ISSD/blob/master/scripts/script.js";
+export const GITHUBLPCODE = "https://github.com/farisasic/landing-page-project/blob/master/scripts/script.js";
 
 export const JSGAME = "http://fasic.bcitwebdeveloper.ca/game-project/index.html";
 export const MDB = "http://fasic.bcitwebdeveloper.ca/movie-app/";

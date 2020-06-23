@@ -32,7 +32,6 @@ const ProjectsPageData = (arr) => {
                         </p>
                     </div>
                 </Fade>
-
                 {contentP.image.map((imageP, i) => {
                     return (
                         <div key={i}>
@@ -41,7 +40,9 @@ const ProjectsPageData = (arr) => {
                     )
                 })
                 }
-
+                <div className='code-show'>
+                    <h2><a href={contentP.code} rel='noopener noreferrer' target='_blank'>View code</a></h2>
+                </div>
                 <Fade left>
                     <div className='created-with'>
                         <p>Created With:

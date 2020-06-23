@@ -8,6 +8,12 @@ main {
             padding: 0 20px 5px 20px;
             text-align: left;
         }
+
+        h2 {
+            color: $black;
+            padding: 0 20px 5px 20px;
+            text-align: left;
+        }
         p{
             color: $black;
             font-size: 1em;
@@ -23,6 +29,7 @@ main {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    max-width: 1140px;
 }
 
 .react-reveal.intro p {
@@ -73,6 +80,14 @@ main {
     margin-top: 20px;
     display: inline-block;
     justify-content: center;
+        h1{
+            padding-top: 10px;
+            font-family: $headingFont;
+            
+            font-size: 4vw;
+            text-decoration: underline;
+            margin-bottom: 40px;
+        }
         img{
             border-radius: 6px;
             margin-top: 20px;
@@ -86,11 +101,11 @@ main {
 .capstone-seatosky-rapids {
     position: relative;
     margin-bottom: 10px;
-        h1 {
+        h2 {
             padding-top: 10px;
             font-family: $headingFont;
             text-transform: uppercase;
-            font-size: 4vw;
+            font-size: 3vw;
         }
         svg {
             position: absolute;
@@ -131,6 +146,10 @@ main {
             h1 {
                 font-size: 1.3em;
             }
+            h2 {
+                font-size: 1.2em;
+            }
+
             p {
                 font-size: 1.1em;
                 max-width: 750px;
@@ -142,6 +161,9 @@ main {
         padding: 0 20px 20px 20px;
             h1 {
             font-size: 3vw;      
+        }
+        h2 {
+            font-size: 2.5vw;
         }
     }
 }
@@ -159,6 +181,10 @@ main {
     
     .project-pic h1 {
         font-size: 1.4em;
+    }
+
+    .project-pic h2 {
+        font-size: 1.2em;
     }
 
     .moviedb svg,
