@@ -13,6 +13,7 @@ export const projectsList = {
             github: GITHUBLINK,
             tools: [WRDPRSS, PHP, GITSVG, APSH],
             image: [STSRM, STSRD, STSRF, STSRC],
+            alt: "School capstone project website showing two different mobile views, one desktop view and one example of php code"
 
         },
         {
@@ -23,7 +24,8 @@ export const projectsList = {
             github: GITHUBLINKMOVIEDB,
             tools: [REACTSVG, GITSVG, NPMSVG],
             image: [MDBAI, MDBAC],
-            code: GITHUBLINKMOVIEDBHOMECODE
+            code: GITHUBLINKMOVIEDBHOMECODE,
+            alt: "ReactJS MovieDB project screenshots, one showing the desktop home page and the second the code for the home page"
         },
         {
             title: "JavaScript Game",
@@ -33,7 +35,8 @@ export const projectsList = {
             github: GITHUBLINKGAME,
             tools: [HTMLSVG, JSSVG, JQUERYSVG, SASSSVG],
             image: [GPAI, GPAC],
-            code: GITHUBGAMECODE
+            code: GITHUBGAMECODE,
+            alt: "JavaScript matching game with two screenshots, first showing the game page, the second showing a part of the code for shuffling cards and turn updates"
 
         },
         {
@@ -44,7 +47,8 @@ export const projectsList = {
             github: GITHUBLINKLANDING,
             tools: [HTMLSVG, CSSSVG, JQUERYSVG],
             image: [LPAI, LPAC],
-            code: GITHUBLPCODE
+            code: GITHUBLPCODE,
+            alt: "Personal school landing page two screenshots, first showing all the selections with all sub-menus, the second showing jQuery code that was used for navigation functionality"
         }
     ]
 }

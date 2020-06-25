@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-import { FiGithub } from "react-icons/fi";
-import { GITHUBLINKGAME, GITHUBLINK, GITHUBLINKMOVIEDB, GPAI, STSRM, MDBAI } from "../globals/variables";
 import FaArrowCircleUp from "../components/ScrollToTop";
+import { HomeListData } from "../components/HomeFeatured";
+import { projectsList } from "../data/projectsList";
 
 
 const Home = () => {
   return (
     <main className='main-home' >
-      <section class="section-home-header">
+      <section className="section-home-header">
         <Fade left >
           <div className='intro' >
             <h1 > Hello and welcome, my name is Faris and I'm a June 2020 graduate from BCIT's TWD(Technical Web Developer) Program, based out of Vancouver, BC.</h1>
@@ -19,44 +19,20 @@ const Home = () => {
       </section>
       <Fade right >
         <div className='btn-div' >
-          <button className='btn-projects' >
+          <button className='btn-projects' type="button" >
             <Link to='/projects' > View My Projects &rarr; </Link>
           </button>
         </div>
       </Fade>
-
-      <Fade up duration={2000}>
-        <div className='project-pic' >
-          <h1>Featured Content:</h1>
-          <div className='capstone-seatosky-rapids'>
-            <h2>Sea-To-Sky Rapids</h2>
-            <img src={`${STSRM}`} alt='capstone-seatosky-rapids' />
-            <a href={GITHUBLINK} rel='noopener noreferrer' target='_blank'>
-              <FiGithub color='#222629' size={60} />
-            </a>
+      <section className="featured-content">
+        <Fade up duration={2000}>
+          <div className='featured-project' >
+            <h1>Featured Project:</h1>
+            {projectsList && <HomeListData content={projectsList} />}
           </div>
-
-
-          <div className='moviedb'>
-            <h2>Movie DB</h2>
-            <img src={`${MDBAI}`} alt='moviedb-using-api' />
-            <a href={GITHUBLINKMOVIEDB} rel='noopener noreferrer' target='_blank'>
-              <FiGithub color='#222629' size={60} />
-            </a>
-          </div>
-
-          <div className='game-project'>
-            <h2>Javascript Game</h2>
-            <img src={`${GPAI}`} alt='javascript-game-issd' />
-            <a href={GITHUBLINKGAME} rel='noopener noreferrer' target='_blank'>
-              <FiGithub color='#222629' size={60} />
-            </a>
-          </div>
-
-        </div>
-      </Fade>
-      <FaArrowCircleUp />
-
+        </Fade>
+        <FaArrowCircleUp />
+      </section>
     </main>
   );
 };

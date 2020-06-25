@@ -74,7 +74,7 @@ main {
         }
 }
 
-.project-pic {
+.featured-project {
     text-align: center;
     padding: 5px;
     margin-top: 20px;
@@ -83,10 +83,7 @@ main {
         h1{
             padding-top: 10px;
             font-family: $headingFont;
-            
-            font-size: 4vw;
-            text-decoration: underline;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
         img{
             border-radius: 6px;
@@ -96,41 +93,6 @@ main {
         }
 }
 
-.game-project,
-.moviedb,
-.capstone-seatosky-rapids {
-    position: relative;
-    margin-bottom: 10px;
-        h2 {
-            padding-top: 10px;
-            font-family: $headingFont;
-            text-transform: uppercase;
-            font-size: 3vw;
-        }
-        svg {
-            position: absolute;
-            top: 50%;
-            left: 45%;
-            opacity: 0;
-        }
-}
-
-.game-project:hover, 
-.game-project:active,
-.moviedb:hover, 
-.moviedb:active,
-.capstone-seatosky-rapids:hover, 
-.capstone-seatosky-rapids:active {
-
-        img { 
-            transition: all 2s ease;
-            opacity: 0.2;
-        }
-        svg {
-            transition: all 2s ease;
-            opacity: 1;
-        }
-}
 
 .error-link {
     text-decoration: none;
@@ -157,11 +119,8 @@ main {
             }
     }
 
-    .project-pic {
+    .featured-project {
         padding: 0 20px 20px 20px;
-            h1 {
-            font-size: 3vw;      
-        }
         h2 {
             font-size: 2.5vw;
         }
@@ -179,19 +138,12 @@ main {
         }
     }
     
-    .project-pic h1 {
+    .featured-project h1 {
         font-size: 1.4em;
     }
 
-    .project-pic h2 {
+    .featured-project h2 {
         font-size: 1.2em;
     }
 
-    .moviedb svg,
-    .game-project svg,
-    .capstone-seatosky-rapids svg {
-        size: 90px;
-        height: 90px;
-        width: 90px;
-    }
 }
