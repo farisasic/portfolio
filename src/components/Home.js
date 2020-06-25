@@ -27,7 +27,7 @@ const Home = () => {
       <section className="featured-content">
         <Fade up duration={2000}>
           <div className='featured-project' >
-            <h1>Featured Project:</h1>
+            <h2>Featured Project:</h2>
             {projectsList && <HomeListData content={projectsList} />}
           </div>
         </Fade>

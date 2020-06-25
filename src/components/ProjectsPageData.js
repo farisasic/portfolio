@@ -17,7 +17,7 @@ const ProjectsPageData = (arr) => {
 
                 <Fade left >
                     <div className='page-link'>
-                        <h1><a href={contentP.link} rel='noopener noreferrer' target='_blank'>{contentP.title}</a></h1>
+                        <h2><a href={contentP.link} rel='noopener noreferrer' target='_blank'>{contentP.title}</a></h2>
                     </div>
                 </Fade>
                 <Fade right >
@@ -25,11 +25,11 @@ const ProjectsPageData = (arr) => {
                 </Fade>
                 <Fade left>
                     <div className='github-link'>
-                        <h2>GitHub Link:
+                        <h3>GitHub Link:
                     <a href={contentP.github} rel='noopener noreferrer' target='_blank'>
                                 <FiGithub size={60} />
                             </a>
-                        </h2>
+                        </h3>
                     </div>
                 </Fade>
                 {contentP.image.map((imageP, i) => {
@@ -41,18 +41,18 @@ const ProjectsPageData = (arr) => {
                 })
                 }
                 <div className='code-show'>
-                    <h2><a href={contentP.code} rel='noopener noreferrer' target='_blank'>View code</a></h2>
+                    <h3><a href={contentP.code} rel='noopener noreferrer' target='_blank'>View code</a></h3>
                 </div>
                 <Fade left>
                     <div className='created-with'>
-                        <h2>Created With:
+                        <h3>Created With:
                         {contentP.tools.map((toolsP, i) => {
                             return (
                                 <span key={i}> {toolsP}</span>
                             )
                         })
                             }
-                        </h2>
+                        </h3>
                     </div>
                 </Fade>
             </div>
