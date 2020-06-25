@@ -21,9 +21,11 @@ export const GITHUBLINKLANDING = "https://github.com/farisasic/landing-page-proj
 export const GITHUBLINKMOVIEDB = "https://github.com/farisasic/movie-app";
 export const GITHUBLINKMOVIEDBHOMECODE = "https://github.com/farisasic/movie-app/blob/master/src/components/Home.js";
 export const GITHUBLINK = "https://github.com/farisasic";
-export const GITHUBSEATOSKY = "https://github.com/sea-to-sky-rapids";
+export const GITHUBSEATOSKY = "https://github.com/farisasic/capstone-sea-to-sky-rapids";
+export const GITHUBSEATOSKYCODE = "https://github.com/farisasic/capstone-sea-to-sky-rapids/blob/master/footer.php"
 export const GITHUBGAMECODE = "https://github.com/farisasic/ISSD/blob/master/scripts/script.js";
 export const GITHUBLPCODE = "https://github.com/farisasic/landing-page-project/blob/master/scripts/script.js";
+
 
 export const JSGAME = "http://fasic.bcitwebdeveloper.ca/game-project/index.html";
 export const MDB = "http://fasic.bcitwebdeveloper.ca/movie-app/";

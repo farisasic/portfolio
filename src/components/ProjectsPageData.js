@@ -25,11 +25,11 @@ const ProjectsPageData = (arr) => {
                 </Fade>
                 <Fade left>
                     <div className='github-link'>
-                        <p>GitHub Link:
+                        <h2>GitHub Link:
                     <a href={contentP.github} rel='noopener noreferrer' target='_blank'>
                                 <FiGithub size={60} />
                             </a>
-                        </p>
+                        </h2>
                     </div>
                 </Fade>
                 {contentP.image.map((imageP, i) => {
@@ -45,14 +45,14 @@ const ProjectsPageData = (arr) => {
                 </div>
                 <Fade left>
                     <div className='created-with'>
-                        <p>Created With:
+                        <h2>Created With:
                         {contentP.tools.map((toolsP, i) => {
                             return (
                                 <span key={i}> {toolsP}</span>
                             )
                         })
                             }
-                        </p>
+                        </h2>
                     </div>
                 </Fade>
             </div>
