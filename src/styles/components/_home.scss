@@ -56,10 +56,10 @@ main {
     font-family: $bodyFont;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     border-radius: 6px;
-    border: 1.5px solid;
-    padding: 10px 20px;
+    border: 2px solid;
+    padding: 7.5px 15px;
         a {
             text-decoration: none;
             color: $black;
@@ -129,6 +129,12 @@ main {
                 max-width: 750px;
                 line-height: 26pt;
             }
+    }
+
+    .btn-projects {
+        font-size: 1.5em;
+        padding: 10px 20px;
+        border: 1.5px solid;
     }
 
     .featured-project {
