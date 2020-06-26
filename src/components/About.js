@@ -30,7 +30,7 @@ const About = () => {
 				</div>
 				<div className='my-picture'>
 					<Fade up duration={2000}>
-						<img src={`${FARIS}`} alt="faris-webdev" />
+						<img src={`${FARIS}`} alt="Faris Asic Front-End Developer" />
 					</Fade>
 				</div>
 			</div>
