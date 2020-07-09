@@ -27,10 +27,10 @@ export const GITHUBGAMECODE = "https://github.com/farisasic/ISSD/blob/master/scr
 export const GITHUBLPCODE = "https://github.com/farisasic/landing-page-project/blob/master/scripts/script.js";
 
 
-export const JSGAME = "http://fasic.bcitwebdeveloper.ca/game-project/index.html";
-export const MDB = "http://fasic.bcitwebdeveloper.ca/movie-app/";
-export const LP = "http://fasic.bcitwebdeveloper.ca/";
-export const STSR = "https://seatoskyrapids.bcitwebdeveloper.ca/";
+export const JSGAME = "https://farkoweb.com/issd/index.html";
+export const MDB = "https://farkoweb.com/movie-app/";
+export const LP = "https://farkoweb.com/landing-page-project/index.html";
+export const STSR = "https://farkoweb.com/sea-to-sky-rapids";
 
 export const FARIS = require("../images/Faris.jpeg");
 export const GPAI = require("../images/Game-Project-Assets/game-project-interface-screenshot-1680.jpg");
