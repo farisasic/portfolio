@@ -1,0 +1,112 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $black;
+
+            h1, h2, p, a {
+                color: $lightGray;
+            }
+    }
+
+    main {
+        background-color: $black;
+
+            h1, h2, p, a {
+                color: $lightGray;
+            }
+    }
+
+    .navbar-toggler {
+        color: $lightGray;
+    }
+    .react-reveal.intro p a {
+        color: $lightGray
+    }
+
+    header {
+        background-color: $black;
+    }
+
+    button {
+        background-color: $black;
+    }
+
+    .btn-projects {
+        border: 2px solid $lightGray;
+    }
+
+    .btn-projects a {
+        color: $lightGray;
+    }
+
+    .btn-projects:hover {
+        background-color: white;
+        transition: all 1s ease;
+        border: 2px solid $black;
+            a {
+                color: $black;
+            }
+    }
+
+    div[class*="project-"] {
+        margin-top: 30px;
+        border-top: 1px solid $lightGray;
+    }
+
+    .projects-list h2 {
+        border: 1.5px solid $lightGray;
+    }
+
+    .projects-list a {
+        color: $lightGray;
+    }
+
+    .projects-list h2:hover,
+    .projects-list h2:focus,
+    .projects-list h2:active {
+    background-color: white;
+    transition: all 1s ease;
+    border: 1.5px solid $black;
+        a {
+            color: $black;
+        }
+    }
+
+    .projects-list h3 {
+        color: $lightGray;
+    }
+
+    .github-link a {
+        color: $darkGray;
+    }
+
+    .contact p {
+	    color: $lightGreen;
+    }
+
+    .code-show h3 a {
+        color: $lightGray;
+        border: 1.5px solid $lightGray;
+    }
+    
+    .code-show a:hover,
+    .code-show a:focus,
+    .code-show a:active {
+        background-color: white;
+        transition: all 1s ease;
+        border: 1.5px solid $black;
+        color: $black;   
+    }
+
+    .projects-list img {
+        box-shadow: none;
+    }
+
+    .my-picture img {
+        box-shadow: none;
+    }
+
+    .linkedin-contact svg{
+        color: $darkGray !important;
+    }
+
+}
