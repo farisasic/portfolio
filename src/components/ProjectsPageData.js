@@ -48,7 +48,7 @@ const ProjectsPageData = (arr) => {
                         <h3>Created With:
                         {contentP.tools.map((toolsP, i) => {
                             return (
-                                <span key={i}> {toolsP}</span>
+                                <span key={i}>{toolsP}</span>
                             )
                         })
                             }
