@@ -31,6 +31,7 @@ export const JSGAME = "https://farkoweb.com/issd/index.html";
 export const MDB = "https://farkoweb.com/movie-app/";
 export const LP = "https://farkoweb.com/landing-page-project/index.html";
 export const STSR = "https://farkoweb.com/sea-to-sky-rapids";
+export const IAL = "https://www.ironandland.ca";
 
 export const FARIS = require("../images/Faris.jpeg");
 export const GPAI = require("../images/Game-Project-Assets/game-project-interface-screenshot-1680.jpg");
@@ -42,4 +43,8 @@ export const LPAC = require("../images/Landing-Page-Assets/carbon.png");
 export const STSRM = require("../images/Seatosky/mobile-view.jpg");
 export const STSRD = require("../images/Seatosky/desktop-view.jpg");
 export const STSRF = require("../images/Seatosky/faq-desktop.jpg");
-export const STSRC = require("../images/Seatosky/carbon.png")
+export const STSRC = require("../images/Seatosky/carbon.png");
+export const IALD = require("../images/ironandland/ironandland-desktop-homepage.jpg");
+export const IALDS = require("../images/ironandland/ironandland-desktop-homepage-scroll.jpg");
+export const IALM = require("../images/ironandland/ironandland-mobile-homepage.jpg");
+export const IALMM = require("../images/ironandland/ironandland-mobile-menu.jpg");

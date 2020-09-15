@@ -1,10 +1,23 @@
 /* eslint-disable no-template-curly-in-string */
-import { HTMLSVG, JSSVG, JQUERYSVG, SASSSVG, REACTSVG, GITSVG, NPMSVG, CSSSVG, GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, GPAC, MDBAI, MDBAC, LPAI, LPAC, JSGAME, MDB, LP, STSR, STSRM, STSRD, STSRF, STSRC, WRDPRSS, PHP, APSH, GITHUBLINKMOVIEDBHOMECODE, GITHUBGAMECODE, GITHUBLPCODE, GITHUBSEATOSKYCODE, GITHUBSEATOSKY } from "../globals/variables";
+import { HTMLSVG, JSSVG, JQUERYSVG, SASSSVG, REACTSVG, GITSVG, NPMSVG, CSSSVG, GITHUBLINKGAME, GITHUBLINKLANDING, GITHUBLINKMOVIEDB, GPAI, GPAC, MDBAI, MDBAC, LPAI, LPAC, JSGAME, MDB, LP, STSR, STSRM, STSRD, STSRF, STSRC, WRDPRSS, PHP, APSH, GITHUBLINKMOVIEDBHOMECODE, GITHUBGAMECODE, GITHUBLPCODE, GITHUBSEATOSKYCODE, GITHUBSEATOSKY, IAL, GITHUBLINK, IALD, IALDS, IALM, IALMM } from "../globals/variables";
 
 
 export const projectsList = {
 
     content: [
+        {
+            title: "Iron & Land",
+            link: IAL,
+            id: "IronAndLand",
+            text: "First client project for a housing development/construction company based in Winnipeg, MB. The website is meant to show off empty land lots that are available for purchase in communities around Winnipeg. The client requested to take ownership and management of the website once it is built as they will take care of adding more content at a later date. Because of this I chose to use Wordpress with GeneratePress and Elementor as website builders to ease site management for the customer. I did have to use some custom CSS as well for the project. Some of the challenges I've faced was learning the new tools or pagebuilders quickly as the website was to be up and running as soon as possible with very little content. I will also perform training sessions for the client via remote meeting on how to perform updates.",
+            github: GITHUBLINK,
+            tools: [WRDPRSS, CSSSVG],
+            image: [IALD, IALDS, IALM, IALMM],
+            code: GITHUBLINK,
+            alt: "housing community developer website that shows off different lots as well as area pictures"
+
+        },
+
         {
             title: "Sea To Sky Rapids",
             link: STSR,
